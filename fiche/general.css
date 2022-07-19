@@ -4,6 +4,7 @@ body {
     margin-left: auto; /* centrage dans l'écran */
     margin-right: auto;
     border: 1px solid black;
+    padding: 5px;
 }
 @media print {
     body {
@@ -15,19 +16,56 @@ body {
 /* id */
 #pl-id {
     width: 878px;
-    height: 150px;
+    min-height: 150px;
     float: left;
     background-color: antiquewhite;
 }
 #pl-lg {
     width: 312px;
-    height: 75px;
+    min-height: 75px;
     float: right;
-    background-color: bisque;
 }
 
 /* generique */
 img.logo {
     width: 312px;    
     height: 75px;
+}
+.demi {
+    width: 49%;
+    float: inline-start;
+}
+.nbsp {
+    width: auto;
+    float: inline-start;
+}
+
+/* zone placeholder */
+.zone {
+    background-color: bisque;
+    border-bottom: 1px solid black;
+    min-height: 1.8em;
+    margin-bottom: 0.2em;
+    margin-right: 1em;
+}
+.full {
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    height: 1.8em;
+    margin: 2px;
+}
+.tier {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 33%;
+    height: 1.8em;
+    margin: 2px;
+}
+
+/* box */
+.box {
+
+}
+.box-tier {
+    width: 33%;
+    float: inline-start;
 }
