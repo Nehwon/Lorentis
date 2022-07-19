@@ -18,12 +18,19 @@ body {
     width: 878px;
     min-height: 150px;
     float: left;
-    background-color: antiquewhite;
+    margin-bottom: 1em;
+    /* background-color: antiquewhite; */
 }
 #pl-lg {
     width: 312px;
-    min-height: 75px;
+    min-height: 225px;
     float: right;
+}
+#pl-car {
+    width: 375px;
+    min-height: 300px;
+    float: left;
+    background-color: antiquewhite;
 }
 
 /* generique */
@@ -33,7 +40,7 @@ img.logo {
 }
 .demi {
     width: 49%;
-    float: inline-start;
+    /* float: inline-start; */
     float: left;
 }
 .nbsp {
@@ -68,9 +75,67 @@ img.logo {
 }
 .box-tier {
     width: 33%;
-    float: inline-start;
+    /* float: inline-start; */
+    float: left;
 }
 .box-quart {
     width: 25%;
-    float: inline-start;
+    /* float: inline-start; */
+    float: left;
+}
+.carac {
+    width: 75px;
+    height: 2.2em;
+    margin-bottom: 2px;
+    float: left;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    margin-bottom: 2px;
+    margin-right: 2px;
+}
+
+/* fonts */
+.headcarac {
+    width: 375px;
+    height: 2em;
+    float: left;
+    margin-bottom: 2px;
+    margin-right: 2px;
+}
+.headtxt {
+    width: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    text-align: center;
+    float: left;
+}
+.boldtxt {
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+}
+.txt {
+    font-size: x-small;
+    text-align: center;
+}
+.score {
+    width: 69px;
+    height: 2.1em;
+    margin-right: 2px;
+    margin-bottom: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    float: left;
+    border: cadetblue 1px solid;
+}
+.tempscore {
+    width: 69px;
+    height: 2.1em;
+    margin-right: 2px;
+    margin-bottom : 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    float: left;
+    border: grey 1px solid;
 }
