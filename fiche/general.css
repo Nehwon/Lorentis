@@ -1,13 +1,33 @@
 body {
-    height: 297mm;
-    width: 210mm;
+    width: 1190px;    
+    height: 1684px;
     margin-left: auto; /* centrage dans l'écran */
     margin-right: auto;
+    border: 1px solid black;
 }
 @media print {
     body {
-        height: 29.7cm;
         width: 21cm;
+        height: 29.7cm;
         margin: 30mm 45mm 30mm 45mm;
     }
+}
+/* id */
+#pl-id {
+    width: 878px;
+    height: 150px;
+    float: left;
+    background-color: antiquewhite;
+}
+#pl-lg {
+    width: 312px;
+    height: 75px;
+    float: right;
+    background-color: bisque;
+}
+
+/* generique */
+img.logo {
+    width: 312px;    
+    height: 75px;
 }
