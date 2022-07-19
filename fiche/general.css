@@ -115,6 +115,12 @@ img.logo {
     font-size: large;
     text-align: center;
 }
+.lgboldtxt {
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .txt {
     font-size: x-small;
     text-align: center;
