@@ -32,6 +32,11 @@ body {
     float: left;
     background-color: antiquewhite;
 }
+#pl-ca {
+    width: 760px;
+    float: right;
+    background-color: antiquewhite;
+}
 
 /* generique */
 img.logo {
@@ -71,7 +76,7 @@ img.logo {
 
 /* box */
 .box {
-
+    width: auto;
 }
 .box-tier {
     width: 33%;
@@ -84,7 +89,7 @@ img.logo {
     float: left;
 }
 .carac {
-    width: 75px;
+    width: 77px;
     height: 2.2em;
     margin-bottom: 2px;
     float: left;
@@ -108,6 +113,7 @@ img.logo {
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-small;
     text-align: center;
+    margin-bottom: 3px;
     float: left;
 }
 .boldtxt {
@@ -144,4 +150,43 @@ img.logo {
     text-align: center;
     float: left;
     border: grey 1px solid;
+}
+
+#headca {
+    width: 810px;
+    height: 2em;
+    float: left;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    clear: right;
+}
+.headtxtw {
+    width: 14px;
+    height: 12px;
+    margin-right: 1px;
+    margin-bottom: 3px;
+    padding-top: 3px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    float: left;
+}
+.txtca {
+    width: 66px;
+    height: 35px;
+    padding-top: 3px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    float: left;
+}
+.scorew {
+    width: 59px;
+    height: 2.1em;
+    margin-right: 2px;
+    margin-bottom: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    float: left;
+    border: cadetblue 1px solid;
 }
