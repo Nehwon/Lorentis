@@ -151,6 +151,7 @@ img.logo {
     border: grey 1px solid;
 }
 
+/* Bloc CA */
 #headca {
     width: 810px;
     height: 2em;
@@ -188,4 +189,16 @@ img.logo {
     text-align: center;
     float: left;
     border: cadetblue 1px solid;
+}
+#pl-carec {
+    width: 760px;
+    float: right;
+    background-color: antiquewhite;
+    margin-top: 5px;
+}
+#pl-canote {
+    width: 760px;
+    float: right;
+    background-color: antiquewhite;
+    margin-top: 5px;
 }
