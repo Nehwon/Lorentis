@@ -141,9 +141,10 @@ img.logo {
 }
 .tempscore {
     width: 69px;
-    height: 2.1em;
+    height: 26px;
     margin-right: 2px;
-    margin-bottom : 3px;
+    margin-bottom: 3px;
+    padding-top: 7px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     float: left;
@@ -202,9 +203,9 @@ img.logo {
 
 /* zone points de vie */
 #pl-pv {
-    background-color: antiquewhite;
     width: 375px;
     float: left;
+    margin-right: 54px;
 }
 #prgbarpv {
     width: 200px;
@@ -215,6 +216,7 @@ img.logo {
     border-radius: 15px;
     float: right;
     margin-top: 5px;
+    margin-bottom: 9px;
     margin-right: 5px;
 }
 .pvbar {
@@ -222,4 +224,10 @@ img.logo {
     border: 1px lightgrey solid;
     border-radius: 15px;
     width: 100%;
+}
+
+/* bloc Sauvegarde */
+#pl-sav {
+    width: 530px;
+    float: left;
 }
