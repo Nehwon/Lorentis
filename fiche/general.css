@@ -19,7 +19,6 @@ body {
     min-height: 150px;
     float: left;
     margin-bottom: 1em;
-    /* background-color: antiquewhite; */
 }
 #pl-lg {
     width: 312px;
@@ -28,13 +27,13 @@ body {
 }
 #pl-car {
     width: 375px;
-    min-height: 300px;
+    min-height: 200px;
     float: left;
+    margin-bottom: 5px;
 }
 #pl-ca {
     width: 760px;
     float: right;
-    background-color: antiquewhite;
 }
 
 /* generique */
@@ -54,7 +53,6 @@ img.logo {
 
 /* zone placeholder */
 .zone {
-    background-color: bisque;
     border-bottom: 1px solid black;
     min-height: 1.8em;
     margin-bottom: 0.2em;
@@ -193,12 +191,30 @@ img.logo {
 #pl-carec {
     width: 760px;
     float: right;
-    background-color: antiquewhite;
     margin-top: 5px;
 }
 #pl-canote {
     width: 760px;
     float: right;
-    background-color: antiquewhite;
     margin-top: 5px;
+}
+
+/* zone points de vie */
+#pl-pv {
+    background-color: antiquewhite;
+    width: 375px;
+    float: left;
+}
+#prgbarpv {
+    width: 200px;
+    background-color: lightgrey;
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+    float: left;
+}
+.pvbar {
+    width: 100%;
 }
