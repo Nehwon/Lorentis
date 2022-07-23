@@ -228,6 +228,7 @@ img.logo {
 
 /* bloc Sauvegarde */
 #pl-sav {
-    width: 530px;
+    width: 590px;
+    min-height: 150px;
     float: left;
 }
