@@ -3,351 +3,406 @@
     <head>
         <title>Fiche de personnage</title>
         <link rel="stylesheet" href="general.css" media="screen">
-        <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/dojo/1.10.4/dijit/themes/claro/claro.css" media="screen">
+        <link rel="stylesheet" href="dijit/themes/claro/claro.css" media="screen">
     </head>
     <body class="claro">
-        <div>
-            <!-- identifiant -->
-            <div id="pl-id">
-                <div class="demi">
-                    <div class="box">
-                        <div class="full">
-                            <div class="zone">&nbsp;</div>
+        <div class="centerPanel" data-dojo-type="dijit/layout/TabContainer" data-dojo-props="tabPosition: 'left'">
+            <div class="cttxt" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="title: 'Informations'">
+                <div class="page">
+                <!-- identifiant -->
+                <div id="pl-id">
+                    <div class="demi">
+                        <div class="box">
+                            <div class="full">
+                                <div class="zone">&nbsp;</div>
+                            </div>
+                            <div class="full">Nom du personnage</div>
                         </div>
-                        <div class="full">Nom du personnage</div>
+                        <div class="box">
+                            <div class="full">
+                                <div class="zone">&nbsp;</div>
+                            </div>
+                            <div class="full">Classe actuelle</div>
+                        </div>
+                        <div class="box-quart">
+                            <div class="full">
+                                <div class="zone">&nbsp;</div>
+                            </div>
+                            <div class="full">Catégorie de Taille</div>
+                        </div>
+                        <div class="box-quart">
+                            <div class="full">
+                                <div class="zone">&nbsp;</div>
+                            </div>
+                            <div class="full">Age</div>
+                        </div>
+                        <div class="box-quart">
+                            <div class="full">
+                                <div class="zone">&nbsp;</div>
+                            </div>
+                            <div class="full">Sexe</div>
+                        </div>
+                        <div class="box-quart">
+                            <div class="full">
+                                <div class="zone">&nbsp;</div>
+                            </div>
+                            <div class="full">Taille</div>
+                        </div>
                     </div>
-                    <div class="box">
-                        <div class="full">
-                            <div class="zone">&nbsp;</div>
+                    <div class="demi">
+                        <div class="box">
+                            <div class="full">
+                                <div class="zone">&nbsp;</div>
+                            </div>
+                            <div class="full">Joueur</div>
                         </div>
-                        <div class="full">Classe actuelle</div>
-                    </div>
-                    <div class="box-quart">
-                        <div class="full">
-                            <div class="zone">&nbsp;</div>
+                        <div class="box">
+                            <div class="full">
+                                <div class="box-tier">
+                                    <div class="full">
+                                        <div class="zone">&nbsp;</div>
+                                    </div>
+                                    <div class="full">Race</div>
+                                </div>
+                                <div class="box-tier">
+                                    <div class="full">
+                                        <div class="zone">&nbsp;</div>
+                                    </div>
+                                    <div class="full">Alignement</div>
+                                </div>
+                                <div class="box-tier">
+                                    <div class="full">
+                                        <div class="zone">&nbsp;</div>
+                                    </div>
+                                    <div class="full">Divinité</div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="full">Catégorie de Taille</div>
-                    </div>
-                    <div class="box-quart">
-                        <div class="full">
-                            <div class="zone">&nbsp;</div>
+                        <div class="box-quart">
+                            <div class="full">
+                                <div class="zone">&nbsp;</div>
+                            </div>
+                            <div class="full">Poids</div>
                         </div>
-                        <div class="full">Age</div>
-                    </div>
-                    <div class="box-quart">
-                        <div class="full">
-                            <div class="zone">&nbsp;</div>
+                        <div class="box-quart">
+                            <div class="full">
+                                <div class="zone">&nbsp;</div>
+                            </div>
+                            <div class="full">Yeux</div>
                         </div>
-                        <div class="full">Sexe</div>
-                    </div>
-                    <div class="box-quart">
-                        <div class="full">
-                            <div class="zone">&nbsp;</div>
+                        <div class="box-quart">
+                            <div class="full">
+                                <div class="zone">&nbsp;</div>
+                            </div>
+                            <div class="full">Cheveux</div>
                         </div>
-                        <div class="full">Taille</div>
+                        <div class="box-quart">
+                            <div class="full">
+                                <div class="zone">&nbsp;</div>
+                            </div>
+                            <div class="full">Peau</div>
+                        </div>
                     </div>
                 </div>
-                <div class="demi">
-                    <div class="box">
-                        <div class="full">
-                            <div class="zone">&nbsp;</div>
-                        </div>
-                        <div class="full">Joueur</div>
-                    </div>
-                    <div class="box">
-                        <div class="full">
-                            <div class="box-tier">
-                                <div class="full">
-                                    <div class="zone">&nbsp;</div>
-                                </div>
-                                <div class="full">Race</div>
-                            </div>
-                            <div class="box-tier">
-                                <div class="full">
-                                    <div class="zone">&nbsp;</div>
-                                </div>
-                                <div class="full">Alignement</div>
-                            </div>
-                            <div class="box-tier">
-                                <div class="full">
-                                    <div class="zone">&nbsp;</div>
-                                </div>
-                                <div class="full">Divinité</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box-quart">
-                        <div class="full">
-                            <div class="zone">&nbsp;</div>
-                        </div>
-                        <div class="full">Poids</div>
-                    </div>
-                    <div class="box-quart">
-                        <div class="full">
-                            <div class="zone">&nbsp;</div>
-                        </div>
-                        <div class="full">Yeux</div>
-                    </div>
-                    <div class="box-quart">
-                        <div class="full">
-                            <div class="zone">&nbsp;</div>
-                        </div>
-                        <div class="full">Cheveux</div>
-                    </div>
-                    <div class="box-quart">
-                        <div class="full">
-                            <div class="zone">&nbsp;</div>
-                        </div>
-                        <div class="full">Peau</div>
-                    </div>
-                </div>
-            </div>
-            <!-- logo et informations liminaire -->
-            <div id="pl-lg">
-                <div><img src="img/dnd3.5_logo.png" class="logo"/></div>
-                <div class="lgboldtxt">Fiche de personnage</div>
-            </div>
-        </div>
-
-        <!--caractéristiques-->
-        <div id="pl-car">
-            <!-- entête -->
-            <div class="headcarac">
-                <div class="headtxt">Caractéristiques</div>
-                <div class="headtxt">Score</div>
-                <div class="headtxt">Modif.</div>
-                <div class="headtxt">Score<br />temporaire</div>
-                <div class="headtxt">Mod.<br /> temporaire</div>
-            </div>
             
-            <!-- Caractéristiques -->
-                <div class="carac">
-                    <div class="boldtxt">FOR</div>
-                    <div class="txt">Force</div>
+                <!-- logo et informations liminaire -->
+                <div id="pl-lg">
+                    <div><img src="img/dnd3.5_logo.png" class="logo"/></div>
+                    <div class="lgboldtxt">Fiche de personnage</div>
                 </div>
-                <div class="score">&nbsp;</div>
-                <div class="score">&nbsp;</div>
-                <div class="tempscore">&nbsp;</div>
-                <div class="tempscore">&nbsp;</div>
+            </div>
 
-                <div class="carac">
-                    <div class="boldtxt">DEX</div>
-                    <div class="txt">Dextérité</div>
+            <!--caractéristiques-->
+            <div id="pl-car">
+                <!-- entête -->
+                <div class="headcarac">
+                    <div class="headtxt">Caractéristiques</div>
+                    <div class="headtxt">Score</div>
+                    <div class="headtxt">Modif.</div>
+                    <div class="headtxt">Score<br />temporaire</div>
+                    <div class="headtxt">Mod.<br /> temporaire</div>
                 </div>
-                <div class="score">&nbsp;</div>
-                <div class="score">&nbsp;</div>
-                <div class="tempscore">&nbsp;</div>
-                <div class="tempscore">&nbsp;</div>
+            
+                <!-- Caractéristiques -->
+                    <div class="carac">
+                        <div class="boldtxt">FOR</div>
+                        <div class="txt">Force</div>
+                    </div>
+                    <div class="score">&nbsp;</div>
+                    <div class="score">&nbsp;</div>
+                    <div class="tempscore">&nbsp;</div>
+                    <div class="tempscore">&nbsp;</div>
 
-                <div class="carac">
-                    <div class="boldtxt">CON</div>
-                    <div class="txt">Constitution</div>
-                </div>
-                <div class="score">&nbsp;</div>
-                <div class="score">&nbsp;</div>
-                <div class="tempscore">&nbsp;</div>
-                <div class="tempscore">&nbsp;</div>
+                    <div class="carac">
+                        <div class="boldtxt">DEX</div>
+                        <div class="txt">Dextérité</div>
+                    </div>
+                    <div class="score">&nbsp;</div>
+                    <div class="score">&nbsp;</div>
+                    <div class="tempscore">&nbsp;</div>
+                    <div class="tempscore">&nbsp;</div>
 
-                <div class="carac">
-                    <div class="boldtxt">INT</div>
-                    <div class="txt">Intelligence</div>
-                </div>
-                <div class="score">&nbsp;</div>
-                <div class="score">&nbsp;</div>
-                <div class="tempscore">&nbsp;</div>
-                <div class="tempscore">&nbsp;</div>
+                    <div class="carac">
+                        <div class="boldtxt">CON</div>
+                        <div class="txt">Constitution</div>
+                    </div>
+                    <div class="score">&nbsp;</div>
+                    <div class="score">&nbsp;</div>
+                    <div class="tempscore">&nbsp;</div>
+                    <div class="tempscore">&nbsp;</div>
 
-                <div class="carac">
-                    <div class="boldtxt">SAG</div>
-                    <div class="txt">Sagesse</div>
-                </div>
-                <div class="score">&nbsp;</div>
-                <div class="score">&nbsp;</div>
-                <div class="tempscore">&nbsp;</div>
-                <div class="tempscore">&nbsp;</div>
+                    <div class="carac">
+                        <div class="boldtxt">INT</div>
+                        <div class="txt">Intelligence</div>
+                    </div>
+                    <div class="score">&nbsp;</div>
+                    <div class="score">&nbsp;</div>
+                    <div class="tempscore">&nbsp;</div>
+                    <div class="tempscore">&nbsp;</div>
 
-                <div class="carac">
-                    <div class="boldtxt">CHA</div>
-                    <div class="txt">Charisme</div>
+                    <div class="carac">
+                        <div class="boldtxt">SAG</div>
+                        <div class="txt">Sagesse</div>
+                    </div>
+                    <div class="score">&nbsp;</div>
+                    <div class="score">&nbsp;</div>
+                    <div class="tempscore">&nbsp;</div>
+                    <div class="tempscore">&nbsp;</div>
+
+                    <div class="carac">
+                        <div class="boldtxt">CHA</div>
+                        <div class="txt">Charisme</div>
+                    </div>
+                    <div class="score">&nbsp;</div>
+                    <div class="score">&nbsp;</div>
+                    <div class="tempscore">&nbsp;</div>
+                    <div class="tempscore">&nbsp;</div>                
+                </div>  
+                <div id="pl-ca">
+                <!-- entête -->
+                <div class="headca">
+                    <div class="headtxt" style="width: 77px;">&nbsp;</div>
+                    <div class="headtxt" style="width: 64px;">Total</div>
+                    <div class="headtxt" style="width: 66px;">&nbsp;</div>
+                    <div class="headtxt" style="width: 64px;">Bonus<br/>d'armure</div>
+                    <div class="headtxtw">&nbsp;</div>
+                    <div class="headtxt" style="width: 64px;">Bonus de<br />bouclier</div>
+                    <div class="headtxtw">&nbsp;</div>
+                    <div class="headtxt" style="width: 62px;">Mod. de<br />Dextérité</div>
+                    <div class="headtxtw">&nbsp;</div>
+                    <div class="headtxt" style="width: 62px;">Mod. de<br />Taille</div>
+                    <div class="headtxtw">&nbsp;</div>
+                    <div class="headtxt" style="width: 62px;">Armure<br />Naturelle</div>
+                    <div class="headtxtw">&nbsp;</div>
+                    <div class="headtxt" style="width: 62px;">Mod. de<br />Parade</div>
+                    <div class="headtxtw">&nbsp;</div>
+                    <div class="headtxt" style="width: 62px;">Mod.<br />Divers</div>
+                    <div class="headtxtw" style="width: 20px;height: 1.5em;">&nbsp;</div>
                 </div>
-                <div class="score">&nbsp;</div>
-                <div class="score">&nbsp;</div>
-                <div class="tempscore">&nbsp;</div>
-                <div class="tempscore">&nbsp;</div>                
+
+                <!--CA-->
+                <div class="carac">
+                    <div class="boldtxt">CA</div>
+                    <div class="txt">Classe d'armure</div>
+                </div>
+                <div class="scorew"></div>
+                <div class="txtca">=10+</div>
+                <div class="scorew"></div>
+                <div class="headtxtw">+</div>
+                <div class="scorew"></div>
+                <div class="headtxtw">+</div>
+                <div class="scorew"></div>
+                <div class="headtxtw">+</div>
+                <div class="scorew"></div>
+                <div class="headtxtw">+</div>
+                <div class="scorew"></div>
+                <div class="headtxtw">+</div>
+                <div class="scorew"></div>
+                <div class="headtxtw">+</div>
+                <div class="scorew"></div>
+            </div>
+            <div id="pl-carec">
+                <div class="carac">
+                    <div class="boldtxt">CA</div>
+                    <div class="txt">de contact</div>
+                </div>
+                <div class="score"></div>
+                <div class="score" style="border: none;"></div>
+                <div class="carac">
+                    <div class="boldtxt">CA</div>
+                    <div class="txt">Surpris</div>
+                </div>
+                <div class="score"></div>
+            </div>
+            <div id="pl-canote">
+                <div class="headtxt" style="width: 760px;">Modificateur(s) particulier(s) à la Classe d'Armure</div>
+                <div class="score" style="float: right;width: 760px; height: 96px; border: 1px black solid; margin-bottom: 8px;">&nbsp;</div>
+            </div>
+            <!--bloc des points de vie-->
+            <div id="pl-pv">
+                <div class="carac">
+                    <div class="boldtxt">PV</div>
+                    <div class="txt">Points de vie</div>
+                </div>
+                <div class="score">15</div>
+                <div id="prgbarpv">
+                    <div class="pvbar">15</div>
+                </div>
+                <div class="carac">
+                    <div class="boldtxt">Dégâts</div>
+                    <div class="txt">non-létaux</div>
+                </div>
+                <div class="tempscore">0</div>
+                <div class="tempscore" style="border: none;"></div>
+                <div class="carac">
+                    <div class="boldtxt">Seuil</div>
+                    <div class="txt">de mort</div>
+                </div>
+                <div class="tempscore">-3</div>
+            </div>
+
+            <!--bloc des jets de sauvegarde-->
+            <div id="pl-sav">
+                <div class="headtxt" style="width: 110px;">Sauvegarde</div>
+                <div class="headtxt" style="width: 77px;">Total</div>
+                <div class="headtxt" style="width: 77px;">Bonus<br />de base</div>
+                <div class="headtxt" style="width: 77px;">Mod.<br />de carac.</div>
+                <div class="headtxt" style="width: 77px;">Mod.<br />magique</div>
+                <div class="headtxt" style="width: 77px;">Mod.<br />divers</div>
+                <div class="headtxt" style="width: 77px;">Mod.<br />temporaire</div>
+                <div class="carac" style="width: 110px;">
+                    <div class="boldtxt">REFLEXES</div>
+                    <div class="txt">(Dextérité)</div>
+                </div>
+                <div class="score" style="width: 73px;"></div>
+                <div class="score" style="width: 73px;"></div>
+                <div class="score" style="width: 73px;"></div>
+                <div class="score" style="width: 73px;"></div>
+                <div class="score" style="width: 73px;"></div>
+                <div class="tempscore" style="width: 73px;"></div>
+                <div class="carac" style="width: 110px;">
+                    <div class="boldtxt">VIGUEUR</div>
+                    <div class="txt">(Constitution)</div>
+                </div>
+                <div class="score" style="width: 73px;"></div>
+                <div class="score" style="width: 73px;"></div>
+                <div class="score" style="width: 73px;"></div>
+                <div class="score" style="width: 73px;"></div>
+                <div class="score" style="width: 73px;"></div>
+                <div class="tempscore" style="width: 73px;"></div>
+                <div class="carac" style="width: 110px;">
+                    <div class="boldtxt">VOLONTE</div>
+                    <div class="txt">(Sagesse)</div>
+                </div>
+                <div class="score" style="width: 73px;"></div>
+                <div class="score" style="width: 73px;"></div>
+                <div class="score" style="width: 73px;"></div>
+                <div class="score" style="width: 73px;"></div>
+                <div class="score" style="width: 73px;"></div>
+                <div class="tempscore" style="width: 73px;"></div>
+            </div>
+
+            <!--bloc des PM-->
+            <div id="pl-pm">
+                <div class="carac">
+                    <div class="boldtxt">PM</div>
+                    <div class="txt">Points de Mana</div>
+                </div>
+                <div class="score">0</div>
+                <div id="prgbarpm">
+                    <div class="pmbar">0</div>
+                </div>
+                <div class="carac">
+                    <div class="boldtxt">Mana</div>
+                    <div class="txt">personnelle</div>
+                </div>
+                <div class="tempscore">15</div>
+                <div class="tempscore" style="border: none;"></div>
+                <div class="carac">
+                    <div class="boldtxt">Seuil</div>
+                    <div class="txt">de dégâts</div>
+                </div>
+                <div class="tempscore">-3</div>
+            </div>            
+        
+            <!--bloc des PA-->
+            <div id="pl-pa">
+                <div class="carac">
+                    <div class="boldtxt">PA</div>
+                    <div class="txt">Points d'actions</div>
+                </div>
+                <div class="score">1</div>
+                <div id="prgbarpa">
+                    <div class="pabar">1</div>
+                </div>
+                <div class="carac">
+                    <div class="boldtxt">Déplac.</div>
+                    <div class="txt">au sol</div>
+                </div>
+                <div class="tempscore">9 m/rnd</div>
+                <div class="tempscore" style="border: none;"></div>
+                <div class="carac">
+                    <div class="boldtxt">Seuil</div>
+                    <div class="txt">de fatigue</div>
+                </div>
+                <div class="tempscore">-3</div>
+            </div>
         </div>
-        <div id="pl-ca">
-            <!-- entête -->
-            <div class="headca">
-                <div class="headtxt" style="width: 77px;">&nbsp;</div>
-                <div class="headtxt" style="width: 64px;">Total</div>
-                <div class="headtxt" style="width: 66px;">&nbsp;</div>
-                <div class="headtxt" style="width: 64px;">Bonus<br/>d'armure</div>
-                <div class="headtxtw">&nbsp;</div>
-                <div class="headtxt" style="width: 64px;">Bonus de<br />bouclier</div>
-                <div class="headtxtw">&nbsp;</div>
-                <div class="headtxt" style="width: 62px;">Mod. de<br />Dextérité</div>
-                <div class="headtxtw">&nbsp;</div>
-                <div class="headtxt" style="width: 62px;">Mod. de<br />Taille</div>
-                <div class="headtxtw">&nbsp;</div>
-                <div class="headtxt" style="width: 62px;">Armure<br />Naturelle</div>
-                <div class="headtxtw">&nbsp;</div>
-                <div class="headtxt" style="width: 62px;">Mod. de<br />Parade</div>
-                <div class="headtxtw">&nbsp;</div>
-                <div class="headtxt" style="width: 62px;">Mod.<br />Divers</div>
-                <div class="headtxtw" style="width: 20px;height: 1.5em;">&nbsp;</div>
-            </div>
 
-            <!--CA-->
-            <div class="carac">
-                <div class="boldtxt">CA</div>
-                <div class="txt">Classe d'armure</div>
-            </div>
-            <div class="scorew"></div>
-            <div class="txtca">=10+</div>
-            <div class="scorew"></div>
-            <div class="headtxtw">+</div>
-            <div class="scorew"></div>
-            <div class="headtxtw">+</div>
-            <div class="scorew"></div>
-            <div class="headtxtw">+</div>
-            <div class="scorew"></div>
-            <div class="headtxtw">+</div>
-            <div class="scorew"></div>
-            <div class="headtxtw">+</div>
-            <div class="scorew"></div>
-            <div class="headtxtw">+</div>
-            <div class="scorew"></div>
-        </div>
-        <div id="pl-carec">
-            <div class="carac">
-                <div class="boldtxt">CA</div>
-                <div class="txt">de contact</div>
-            </div>
-            <div class="score"></div>
-            <div class="score" style="border: none;"></div>
-            <div class="carac">
-                <div class="boldtxt">CA</div>
-                <div class="txt">Surpris</div>
-            </div>
-            <div class="score"></div>
-        </div>
-        <div id="pl-canote">
-            <div class="headtxt" style="width: 760px;">Modificateur(s) particulier(s) à la Classe d'Armure</div>
-            <div class="score" style="float: right;width: 760px; height: 96px; border: 1px black solid; margin-bottom: 8px;">
+        <!-- Gestion de combat -->
+        <div class="cttxt" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="title: 'Combats'">
+            <div class="page">
                 &nbsp;
             </div>
         </div>
-        <!--bloc des points de vie-->
-        <div id="pl-pv">
-            <div class="carac">
-                <div class="boldtxt">PV</div>
-                <div class="txt">Points de vie</div>
+
+        <!-- gestion de compétences -->
+        <div class="cttxt" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="title: 'Compétences'">
+            <div class="page">
+                &nbsp;
             </div>
-            <div class="score">15</div>
-            <div id="prgbarpv">
-                <div class="pvbar">15</div>
-            </div>
-            <div class="carac">
-                <div class="boldtxt">Dégâts</div>
-                <div class="txt">non-létaux</div>
-            </div>
-            <div class="tempscore">0</div>
-            <div class="tempscore" style="border: none;"></div>
-            <div class="carac">
-                <div class="boldtxt">Seuil</div>
-                <div class="txt">de mort</div>
-            </div>
-            <div class="tempscore">-3</div>
         </div>
 
-        <!--bloc des jets de sauvegarde-->
-        <div id="pl-sav">
-            <div class="headtxt" style="width: 110px;">Sauvegarde</div>
-            <div class="headtxt" style="width: 77px;">Total</div>
-            <div class="headtxt" style="width: 77px;">Bonus<br />de base</div>
-            <div class="headtxt" style="width: 77px;">Mod.<br />de carac.</div>
-            <div class="headtxt" style="width: 77px;">Mod.<br />magique</div>
-            <div class="headtxt" style="width: 77px;">Mod.<br />divers</div>
-            <div class="headtxt" style="width: 77px;">Mod.<br />temporaire</div>
-            <div class="carac" style="width: 110px;">
-                <div class="boldtxt">REFLEXES</div>
-                <div class="txt">(Dextérité)</div>
+        <!-- gestion des dons -->
+        <div class="cttxt" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="title: 'Dons'">
+            <div class="page">
+                &nbsp;
             </div>
-            <div class="score" style="width: 73px;"></div>
-            <div class="score" style="width: 73px;"></div>
-            <div class="score" style="width: 73px;"></div>
-            <div class="score" style="width: 73px;"></div>
-            <div class="score" style="width: 73px;"></div>
-            <div class="tempscore" style="width: 73px;"></div>
-            <div class="carac" style="width: 110px;">
-                <div class="boldtxt">VIGUEUR</div>
-                <div class="txt">(Constitution)</div>
-            </div>
-            <div class="score" style="width: 73px;"></div>
-            <div class="score" style="width: 73px;"></div>
-            <div class="score" style="width: 73px;"></div>
-            <div class="score" style="width: 73px;"></div>
-            <div class="score" style="width: 73px;"></div>
-            <div class="tempscore" style="width: 73px;"></div>
-            <div class="carac" style="width: 110px;">
-                <div class="boldtxt">VOLONTE</div>
-                <div class="txt">(Sagesse)</div>
-            </div>
-            <div class="score" style="width: 73px;"></div>
-            <div class="score" style="width: 73px;"></div>
-            <div class="score" style="width: 73px;"></div>
-            <div class="score" style="width: 73px;"></div>
-            <div class="score" style="width: 73px;"></div>
-            <div class="tempscore" style="width: 73px;"></div>
         </div>
 
-        <!--bloc des PM-->
-        <div id="pl-pm">
-            <div class="carac">
-                <div class="boldtxt">PM</div>
-                <div class="txt">Points de Mana</div>
+        <!-- gestion des sorts -->
+        <div class="cttxt" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="title: 'Sortilèges'">
+            <div class="page">
+                &nbsp;
             </div>
-            <div class="score">0</div>
-            <div id="prgbarpm">
-                <div class="pmbar">0</div>
-            </div>
-            <div class="carac">
-                <div class="boldtxt">Mana</div>
-                <div class="txt">personnelle</div>
-            </div>
-            <div class="tempscore">15</div>
-            <div class="tempscore" style="border: none;"></div>
-            <div class="carac">
-                <div class="boldtxt">Seuil</div>
-                <div class="txt">de dégâts</div>
-            </div>
-            <div class="tempscore">-3</div>
-        </div>            
-        
-        <!--bloc des PA-->
-        <div id="pl-pa">
-            <div class="carac">
-                <div class="boldtxt">PA</div>
-                <div class="txt">Points d'actions</div>
-            </div>
-            <div class="score">1</div>
-            <div id="prgbarpa">
-                <div class="pabar">1</div>
-            </div>
-            <div class="carac">
-                <div class="boldtxt">Déplac.</div>
-                <div class="txt">au sol</div>
-            </div>
-            <div class="tempscore">9 m/rnd</div>
-            <div class="tempscore" style="border: none;"></div>
-            <div class="carac">
-                <div class="boldtxt">Seuil</div>
-                <div class="txt">de fatigue</div>
-            </div>
-            <div class="tempscore">-3</div>
         </div>
-    <!-- chargement de dojo et ajout de la configuration par data-->
-    <script src="dojo/dojo.js" data-dojo-config="async: 1, parseOnLoad: 1"></script>
-    <script src="js/generique.js"></script>
+
+        <!-- gestion des pouvoirs -->
+       <div class="cttxt" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="title: 'Pouvoirs'">
+            <div class="page">
+                &nbsp;
+            </div>
+       </div>
+
+       <!-- Equipements -->
+       <div class="cttxt" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="title: 'Equipements'">
+            <div class="page">
+                &nbsp;
+            </div>
+       </div>
+
+       <!-- Notes et Histoires -->
+       <div class="cttxt" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="title: 'Historique'">
+            <div class="page">
+                &nbsp;
+            </div>
+       </div>
+
+        <!-- chargement de dojo et ajout de la configuration par data-->
+        <script src="dojo/dojo.js" data-dojo-config="async: 1, parseOnLoad: 1"></script>
+        <script src="js/generique.js"></script>
+        <script>
+            require(["dojo/parser", "dijit/layout/BorderContainer", "dijit/layout/TabContainer", "dijit/layout/ContentPane"]);
+        </script>
     </body>
 </html>

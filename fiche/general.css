@@ -1,9 +1,8 @@
 body {
-    width: 1190px;    
-    height: 1684px;
+    width: 1390px;    
+    min-height: 800px;
     margin-left: auto; /* centrage dans l'écran */
     margin-right: auto;
-    border: 1px solid black;
     padding: 5px;
 }
 @media print {
@@ -282,4 +281,8 @@ img.logo {
     min-height: 150px;
     float: right;
     margin-bottom: 10px;
+}
+
+.cttxt {
+    font-family: Arial, Helvetica, sans-serif; !important
 }
