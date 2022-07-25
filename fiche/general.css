@@ -296,3 +296,11 @@ img.logo {
     float: left;
     margin-bottom: 10px;
 }
+
+/* bloc lutte */
+#pl-lut {
+    width: 600px;
+    min-height: 75px;
+    float: right;
+    margin-bottom: 10px;
+}
