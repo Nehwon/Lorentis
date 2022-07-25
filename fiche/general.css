@@ -226,9 +226,60 @@ img.logo {
     width: 100%;
 }
 
+/* bloc PM */
+#pl-pm {
+    width: 375px;
+    float: left;
+    margin-right: 54px;
+}
+#prgbarpm {
+    width: 200px;
+    background-color: red;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 9px;
+    margin-right: 5px;
+}
+.pmbar {
+    background-color: cornflowerblue;
+    border: 1px lightgrey solid;
+    border-radius: 15px;
+    width: 100%;
+}
+
+/* bloc PA */
+#pl-pa {
+    width: 375px;
+    float: left;
+    margin-right: 54px;
+}
+#prgbarpa {
+    width: 200px;
+    background-color: red;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 9px;
+    margin-right: 5px;
+}
+.pabar {
+    background-color: peru;
+    border: 1px lightgrey solid;
+    border-radius: 15px;
+    width: 100%;
+}
+
 /* bloc Sauvegarde */
 #pl-sav {
     width: 590px;
     min-height: 150px;
-    float: left;
+    float: right;
+    margin-bottom: 10px;
 }
