@@ -286,3 +286,13 @@ img.logo {
 .cttxt {
     font-family: Arial, Helvetica, sans-serif; !important
 }
+
+/* PAGE COMBATS */
+
+/* bloc initiative */
+#pl-mi {
+    width: 415px;
+    min-height: 75px;
+    float: left;
+    margin-bottom: 10px;
+}
