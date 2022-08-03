@@ -364,6 +364,14 @@ img.logo {
     background-color: blanchedalmond;
 }
 
+.hauteurFixe {
+    height: 46px;
+}
+
+.hauteurLigne {
+    height: 1.5em;
+}
+
 .coche {
     writing-mode: vertical-lr;
     text-orientation: sideways-left;
@@ -372,9 +380,9 @@ img.logo {
     font-size: x-small;
     font-weight: bold;
     width: 25px;
-    height: 42px;
     float: left;
     padding: 2px;
+    text-align: center;
 }
 .titre-cmp {
     background-color: black;
@@ -389,45 +397,35 @@ img.logo {
 }
 .nom-cmp {
     width: 846px;
-    height: 42px;
-    font-size: x-large;
-    font-weight: bolder;
     float: left;
-    margin-left: 1px;
-    padding: 2px;
     border: 1px solid black;
 }
 .k-att {
     width: 75px;
-    height: 46px;
     text-align: center;
     float: left;
     border: 1px solid black;
 }
 .total-cmp {
     width: 75px;
-    height: 46px;
     text-align: center;
     float: left;
     border: 1px solid black;
 }
 .mod-cmp {
     width: 75px;
-    height: 46px;
     text-align: center;
     float: left;
     border: 1px solid black;
 }
 .mod-rnk {
     width: 75px;
-    height: 46px;
     text-align: center;
     float: left;
     border: 1px solid black;
 }
 .mod-dvr {
     width: 75px;
-    height: 46px;
     text-align: center;
     float: left;
     border: 1px solid black;
