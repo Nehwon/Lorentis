@@ -325,7 +325,7 @@ img.logo {
 /* zone d'armes */
 
   /* DivTable.com */
-  .divTable{ display: table; }
+  .divTable { display: table; }
   .divTableRow { display: table-row; }
   .divTableHeading { display: table-header-group;}
   .divTableCell, .divTableHead { display: table-cell;}
@@ -360,7 +360,6 @@ img.logo {
 /* zone de compétences */
 #pl-comp {
     width: 100%;
-    min-height: 250px;
     float: left;
     background-color: blanchedalmond;
 }
@@ -372,7 +371,8 @@ img.logo {
     background-color: black;
     font-size: x-small;
     font-weight: bold;
-    height: 75px;
+    width: 25px;
+    height: 42px;
     float: left;
     padding: 2px;
 }
