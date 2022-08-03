@@ -3,6 +3,7 @@
     <head>
         <title>Fiche de personnage</title>
         <meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/fa22229102.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="general.css" media="screen">
         <link rel="stylesheet" href="dijit/themes/claro/claro.css" media="screen">
     </head>
@@ -749,20 +750,27 @@
 
                 <!-- zone de compétences -->
                 <div id="pl-comp">
-                    <div class="coche divTableCell">Comp. de classe</div>
-                    <div class="divTable" style="border: 1xp solid black; vertical-align: middle;">
-                        <div class="pl-comp-head divTableRow">
-                            <div class="titre-cmp divTableCell">COMPETENCES</div>
-                        </div>
-                        <div class="pl-comp-head divTableRow">
-                            <div class="nom-cmp divTableCell">Nom de la compétence</div>
-                            <div class="k-att divTableCell">Attribut</div>
-                            <div class="total-cmp divTableCell">Total</div>
-                            <div class="mod-cmp divTableCell">Mod.<br />d'attribut</div>
-                            <div class="mod-rnk divTableCell">Niveau</div>
-                            <div class="mod-dvr divTableCell">Mod.<br />Divers</div>
-                        </div>
+                    <div class="coche" style="height: 75px;">Comp. de classe</div>
+                    <div class="titre-cmp">Compétences</div>
+                    <div class="divTableRow">
+                        <div class="divTableCell nom-cmp">Nom de la compétence</div>
+                        <div class="divTableCell k-att">Attribut</div>
+                        <div class="divTableCell total-cmp">Total</div>
+                        <div Class="divTableCell mod-cmp">Mod.<br />d'attribut</div>
+                        <div class="divTableCell mod-rnk">Niveau</div>
+                        <div class="divTableCell mod-dvr">Mod.<br />Divers</div>
                     </div>
+                </div>
+            
+                <!-- ligne de compétences -->
+                <div class="comp-ligne">
+                    <div class="coche" style=""><i class="fa-solid fa-square"></i></div>
+                    <div class="nom-cmp">Acrobaties</div>
+                    <div class="k-att">DEX*</div>
+                    <div class="total-cmp">0</div>
+                    <div class="mod-cmp">0</div>
+                    <div class="mod-rnk">0</div>
+                    <div class="mod-dvr">0</div>
                 </div>
             </div> 
         </div>
