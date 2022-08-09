@@ -430,11 +430,17 @@ img.logo {
     border: 1px solid black;
 }
 
-// dons
-.dons-heading {
+/* dons */
+.donshead {
     float: left;
     background-color: black;
     color: white;
     font-size: x-large;
     text-align: center;
+}
+.donsbody {
+    float: left;
+    text-align: center;
+    border: 1px solid black;
+    min-height: 20px;
 }
