@@ -429,3 +429,12 @@ img.logo {
     float: left;
     border: 1px solid black;
 }
+
+// dons
+.dons-heading {
+    float: left;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
